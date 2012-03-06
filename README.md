@@ -23,15 +23,15 @@ Usage
 
 Simply use rbenv-man in the same way as `man(1)`.
 
-Show `ruby(1)`:
+Show `ruby(1)` manual:
 
     $ rbenv man ruby
 
-Show `ri(1)`:
+Show `ri(1)` manual:
 
     $ rbenv man 1 ri
 
-Print location of `ruby(1)`:
+Print location of `ruby(1)` manual:
 
     $ rbenv man -w ruby
     /home/mlafeldt/.rbenv/versions/1.9.2-p290/share/man/man1/ruby.1
