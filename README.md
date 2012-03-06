@@ -2,8 +2,12 @@ rbenv-man
 =========
 
 rbenv-man is a plugin for [rbenv] to easily access the man pages for the
-currently set Ruby version. It is technically a wrapper for `man(1)` that
-takes care of using the correct `MANPATH`.
+currently set Ruby version, e.g. `ruby(1)` and `irb(1)`.
+
+Technically, rbenv-man is a wrapper for `man(1)` that takes care of using the
+correct `MANPATH`.
+
+Note: To view a gem's man page, install [gem-man].
 
 
 Installation
@@ -58,4 +62,5 @@ Contact
 
 
 [LICENSE]: https://github.com/mlafeldt/rbenv-man/blob/master/LICENSE
+[gem-man]: https://github.com/defunkt/gem-man
 [rbenv]: https://github.com/sstephenson/rbenv
