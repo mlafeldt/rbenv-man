@@ -5,7 +5,7 @@ rbenv-man is a plugin for [rbenv] to easily access the man pages for the
 currently set Ruby version, e.g. `ruby(1)` and `irb(1)`.
 
 Technically, rbenv-man is a wrapper for `man(1)` that takes care of using the
-correct `MANPATH`.
+correct manpath.
 
 Note: To view a gem's man page, install [gem-man].
 
@@ -25,7 +25,8 @@ bundles.)
 Usage
 -----
 
-Simply use rbenv-man in the same way as `man(1)`.
+Simply use rbenv-man in the same way as your system's `man(1)` program. All
+command-line options are passed through to it.
 
 Show `ruby(1)` manual:
 
