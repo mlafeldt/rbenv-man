@@ -28,24 +28,26 @@ Usage
 Simply use rbenv-man in the same way as your system's `man(1)` program. All
 command-line options are passed through to it.
 
-Show `ruby(1)` manual:
+Some examples:
 
-    $ rbenv man ruby
+* Show `ruby(1)` manual:
 
-Show `ri(1)` manual:
+        $ rbenv man ruby
 
-    $ rbenv man 1 ri
+* Show `ri(1)` manual:
 
-Print location of `ruby(1)` manual:
+        $ rbenv man 1 ri
 
-    $ rbenv man -w ruby
-    /home/mlafeldt/.rbenv/versions/1.9.2-p290/share/man/man1/ruby.1
+* Print location of `ruby(1)` manual:
 
-Change Ruby version and print new location of man page:
+        $ rbenv man -w ruby
+        /home/mlafeldt/.rbenv/versions/1.9.2-p290/share/man/man1/ruby.1
 
-    $ rbenv global 1.9.3-p0
-    $ rbenv man -w ruby
-    /home/mlafeldt/.rbenv/versions/1.9.3-p0/share/man/man1/ruby.1
+* Change Ruby version and print new location of man page:
+
+        $ rbenv global 1.9.3-p0
+        $ rbenv man -w ruby
+        /home/mlafeldt/.rbenv/versions/1.9.3-p0/share/man/man1/ruby.1
 
 
 License
