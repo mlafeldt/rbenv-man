@@ -53,7 +53,7 @@ Some examples:
 License
 -------
 
-rbenv-man is licensed under the terms of the MIT License. See [LICENSE] file.
+rbenv-man does not reach the [threshold of originality], so no license is needed.
 
 
 Contact
@@ -64,6 +64,6 @@ Contact
 * Twitter: [@mlafeldt](https://twitter.com/mlafeldt)
 
 
-[LICENSE]: https://github.com/mlafeldt/rbenv-man/blob/master/LICENSE
 [gem-man]: https://github.com/defunkt/gem-man
 [rbenv]: https://github.com/sstephenson/rbenv
+[threshold of originality]: http://en.wikipedia.org/wiki/Threshold_of_originality
