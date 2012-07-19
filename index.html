@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="rbenv-man : rbenv plugin to easily access man pages for current Ruby version" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>rbenv-man</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/mlafeldt/rbenv-man">View on GitHub</a>
+
+          <h1 id="project_title">rbenv-man</h1>
+          <h2 id="project_tagline">rbenv plugin to easily access man pages for current Ruby version</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/mlafeldt/rbenv-man/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/mlafeldt/rbenv-man/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>rbenv-man</h1>
+
+<p>rbenv-man is a plugin for <a href="https://github.com/sstephenson/rbenv">rbenv</a> to easily access the man pages for the
+currently set Ruby version, e.g. <code>ruby(1)</code> and <code>irb(1)</code>.</p>
+
+<p>Technically, rbenv-man is a wrapper for <code>man(1)</code> that takes care of using the
+correct manpath.</p>
+
+<p>Note: To view a gem's man page, install <a href="https://github.com/defunkt/gem-man">gem-man</a>.</p>
+
+<h2>Installation</h2>
+
+<p>To install rbenv-man, clone this repository into your <code>~/.rbenv/plugins</code>
+directory. (You'll need a recent version of rbenv that supports plugin
+bundles.)</p>
+
+<pre><code>$ mkdir -p ~/.rbenv/plugins
+$ cd ~/.rbenv/plugins
+$ git clone git://github.com/mlafeldt/rbenv-man.git
+</code></pre>
+
+<h2>Usage</h2>
+
+<p>Simply use rbenv-man in the same way as your system's <code>man(1)</code> program. All
+command-line options are passed through to it.</p>
+
+<p>Some examples:</p>
+
+<ul>
+<li>
+<p>Show <code>ruby(1)</code> manual:</p>
+
+<pre><code>$ rbenv man ruby
+</code></pre>
+</li>
+<li>
+<p>Show <code>ri(1)</code> manual:</p>
+
+<pre><code>$ rbenv man 1 ri
+</code></pre>
+</li>
+<li>
+<p>Print location of <code>ruby(1)</code> manual:</p>
+
+<pre><code>$ rbenv man -w ruby
+/home/mlafeldt/.rbenv/versions/1.9.2-p290/share/man/man1/ruby.1
+</code></pre>
+</li>
+<li>
+<p>Change Ruby version and print new location of man page:</p>
+
+<pre><code>$ rbenv global 1.9.3-p0
+$ rbenv man -w ruby
+/home/mlafeldt/.rbenv/versions/1.9.3-p0/share/man/man1/ruby.1
+</code></pre>
+</li>
+</ul><h2>License</h2>
+
+<p>rbenv-man does not reach the <a href="http://en.wikipedia.org/wiki/Threshold_of_originality">threshold of originality</a>, so no license is needed.</p>
+
+<h2>Contact</h2>
+
+<ul>
+<li>Web: <a href="https://github.com/mlafeldt/rbenv-man">https://github.com/mlafeldt/rbenv-man</a>
+</li>
+<li>Mail: <a href="mailto:mathias.lafeldt@gmail.com">mathias.lafeldt@gmail.com</a>
+</li>
+<li>Twitter: <a href="https://twitter.com/mlafeldt">@mlafeldt</a>
+</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">rbenv-man maintained by <a href="https://github.com/mlafeldt">mlafeldt</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
