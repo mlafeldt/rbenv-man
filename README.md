@@ -18,8 +18,7 @@ directory. (You'll need a recent version of rbenv that supports plugin
 bundles.)
 
     $ mkdir -p "$(rbenv root)/plugins"
-    $ cd "$(rbenv root)/plugins"
-    $ git clone git://github.com/mlafeldt/rbenv-man.git
+    $ git clone https://github.com/mlafeldt/rbenv-man.git "$(rbenv root)/plugins/rbenv-man"
 
 
 Usage
