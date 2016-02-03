@@ -2,4 +2,4 @@
 set -e
 [ -n "$RBENV_DEBUG" ] && set -x
 
-exec man -M "${RBENV_ROOT}/versions/$(rbenv-version-name)/share/man:${MANPATH}" "$@"
+exec man -M "$(rbenv-prefix)/share/man:${MANPATH}" "$@"
