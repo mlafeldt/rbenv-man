@@ -17,9 +17,8 @@ To install rbenv-man, clone this repository into your `~/.rbenv/plugins`
 directory. (You'll need a recent version of rbenv that supports plugin
 bundles.)
 
-    $ mkdir -p ~/.rbenv/plugins
-    $ cd ~/.rbenv/plugins
-    $ git clone git://github.com/mlafeldt/rbenv-man.git
+    $ mkdir -p "$(rbenv root)/plugins"
+    $ git clone https://github.com/mlafeldt/rbenv-man.git "$(rbenv root)/plugins/rbenv-man"
 
 
 Usage
